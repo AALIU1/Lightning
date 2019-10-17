@@ -15,7 +15,7 @@ void draw(){
   if(keyPressed && t==0){
     t=1;
   }
-  if(t>=1 && t<=200){
+  if(t>=1 && t<=90){
     stroke((float)l,(float)l,0);
     strokeWeight(50);
     fill(ba+255,0,0);
@@ -23,7 +23,7 @@ void draw(){
     text("SHAZAM!",100,300);
     t=t+1;
   }
-  if(z==0 && t>=60){
+  if(z==0 && t>=90){
     z=1;
     ba=255;
     ca=255;
