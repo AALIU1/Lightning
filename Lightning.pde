@@ -55,6 +55,7 @@ void draw(){
     b=-50;
     c=Math.random()*300+250;
     d=Math.random()*100+50;
-    background(0,0,0);
+    ba=0;
+    background(ba);
   }
 }
